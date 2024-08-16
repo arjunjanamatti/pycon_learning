@@ -1,14 +1,50 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="60Oe-Ih6poFvGU7g3tar">
-    <mxGraphModel dx="1290" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#4D4D4D" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hWAmkkOym4lwRjAW0l7e-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="290" width="440" height="90" as="geometry" />
+        <mxCell id="hWAmkkOym4lwRjAW0l7e-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="70" y="290" width="517" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hWAmkkOym4lwRjAW0l7e-2" value="Object Relational Mapper (ORM)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hWAmkkOym4lwRjAW0l7e-2" value="Object Relational Mapper (ORM)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="80" y="305" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-2" value="SQL Alchemy ORM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="623" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-3" value="Overview" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="25" y="151" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="422" width="517" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-5" value="Schemas / Types" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="432" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-6" value="SQL Expression Language" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="247" y="432" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-7" value="Engine" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="413" y="432" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-8" value="Connection Pool" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="413" y="503" width="70" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-9" value="&lt;b&gt;Dialect&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493" y="503" width="70" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;DB API&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="413" y="573" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;DB&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="458" y="694" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="475.5" y="620" width="25" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="9ZIbavXM5_D6BeCcZ-2I-15" value="SQL Alchemy Core" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="623" y="439.5" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
