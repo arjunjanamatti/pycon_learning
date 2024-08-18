@@ -92,3 +92,33 @@ params={"after": after, "before":before}
     return rows
 
 
+def add_new_order_for_customer(customer_id, items):
+    try:
+        new_order_id = execute_insert_query(
+            query = """
+            INSERT INTO orders
+                (customer_id, order_time)
+            VALUES
+                (:customer_id, Date('now'))
+            RETURNING id
+""",
+params={'customer_id': customer_id})[0]
+        
+        execute_insert_queries("""
+            INSERT INTO order_items
+                    (order_id, item_id, quantity)
+            VALUES
+                    (:order_id, :item_id, :quantity)
+""",
+params_tuple = [
+    {
+        "order_id": new_order_id,
+        "item_id": item["id"],
+        "quantity": item["quantity"]
+}
+for item in items
+])
+        return True
+    except Exception:
+        logging.exception("Failed to add a new order")
+        return False
