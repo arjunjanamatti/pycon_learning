@@ -1,6 +1,7 @@
 import logging
 import sqlite3
-
+from db.base import engine
+from sqlalchemy import text
 from db.init_db import DB_PATH
 
 def execute_query(query, params):
@@ -10,6 +11,10 @@ def execute_query(query, params):
         rows = curr.fetchall()
         return rows
     
+def execute_query(query, params=None):
+    with engine.connect() as conn:
+        return conn.execute(text(query), parameters=params)
+
 def execute_insert_query(query, params):
     with sqlite3.connect(DB_PATH) as conn:
         curr = conn.cursor()
